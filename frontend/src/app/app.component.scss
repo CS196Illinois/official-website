@@ -5,12 +5,14 @@
 }
 
 .main-data {
-    max-width: 100%;
+    // max-width: 100%;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    height: 100%;
 }
 
 app-sidebar {
     width: 25%;
     height: 100%;
+    margin: 0;
 }
