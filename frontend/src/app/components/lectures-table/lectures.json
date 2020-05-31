@@ -1,0 +1,18 @@
+{
+    "lectures" : [
+        {
+            "number" : 0,
+            "name" : "Welcome to CS196!",
+            "date": "08/25",
+            "slides" : "https://docs.google.com/presentation/d/1vfePbQ_-muTiqt2DwsFnhFgIPaE89hwPAkI9IhehoKw/edit?usp=sharing",
+            "video" : "https://www.youtube.com/watch?v=fbH-l3zPlUw"
+        },
+        {
+            "number" : 1,
+            "name" : "Bash 1",
+            "date": "08/27",
+            "slides" : "https://docs.google.com/presentation/d/1iuELVwGU6MBl9vpwHtxOs0x__NFibD2vYLL9QNNc1vw/edit?usp=sharing",
+            "video" : "https://www.youtube.com/watch?v=miG5mGcez7I"
+        }
+    ]
+}

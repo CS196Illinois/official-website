@@ -1,0 +1,35 @@
+th, td {
+    border-bottom: 2px solid black;
+    height: 50px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.lecture-table {
+    border-collapse: collapse;
+    padding: 3%;
+    width: 100%;
+    font-size: large;
+    border: 2px solid black;
+}
+
+// remove blue hyperlink color
+a { 
+    color: inherit; 
+} 
+
+

@@ -1,0 +1,24 @@
+{
+    "staff": [
+        {
+            "name" : "Clara",
+            "bio" : "Hi I am Clara (Ziyuan) Wei, an incoming junior in Computer Science and Statistics, and an \"addict\" on coffee and milk tea:):) Fun fact: I play the flute.",
+            "picture" : "clara.jpeg"
+        },
+        {
+            "name" : "Isa",
+            "bio" : "",
+            "picture" : "isa.png"
+        },
+        {
+            "name" : "Aileen",
+            "bio" : "Painting, sleeping, fitness lover.",
+            "picture" : "aileen.jpeg"
+        },
+        {
+            "name" : "Vishesh",
+            "bio" : "Probably editing a video for Youtube right now... Manchester United and GSW fan",
+            "picture" : "vishesh.png"
+        }
+    ]
+}

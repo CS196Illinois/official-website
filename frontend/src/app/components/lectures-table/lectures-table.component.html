@@ -1,0 +1,33 @@
+<h1>Lectures</h1>
+<div class="table-container">
+    <table class="lecture-table">
+        <tr>
+            <th align="left">Lecture Name</th>
+            <th>Date</th>
+            <th>Slides</th>
+            <th>Video</th>
+        </tr>
+        <tr *ngFor="let lecture of lectures">
+            <td>
+                <span>
+                    <b>Lecture {{ lecture.number }}:</b> {{ lecture.name }}
+                </span>
+            </td>
+            <td>
+                <span>
+                    {{ lecture.date }}
+                </span>
+            </td>
+            <td>
+                <span>
+                    <a href={{lecture.slides}} target="_blank" rel="nooponer noreferrer"><fa-icon [icon]="faChalkboard"></fa-icon></a>
+                </span>
+            </td>
+            <td>
+                <span>
+                    <a href={{lecture.video}} target="_blank" rel="nooponer noreferrer"><fa-icon [icon]="faVideo"></fa-icon></a>
+                </span>
+            </td>
+        </tr>
+    </table>
+</div>
