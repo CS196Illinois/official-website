@@ -1,12 +1,41 @@
-.resources-main {
+.resources-table {
     height: 100vh;
     width: 75vw;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding: 20% 8%;
+    padding: 0% 8% 20% 8%;
 }
 
 app-lectures-table {
     width: 100%;
+}
+
+.resource-rows {
+    height: 50vh;
+    display: flex;
+    border-bottom: rgba(17, 13, 13, 0.75) 2px solid;
+}
+
+.resource-row-element {
+    width: 37.5vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    border-right: solid 1px rgba(124, 113, 113, 0.2)
+}
+
+.resource-main {
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+section {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+p {
+    line-height: 2;
 }
