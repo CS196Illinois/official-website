@@ -1,14 +1,59 @@
 {
     "staff": [
         {
+            "name" : "Sami",
+            "bio" : "Chipotle enthusiast, wanna-be standup comedian, slacking fitness lover",
+            "picture" : "sami.jpg"
+        },
+        {
+            "name" : "Rohan",
+            "bio" : "I am passionate about data analytics and using data to solve problems, big coffee guy, and I mess around in GarageBand in my free time.",
+            "picture" : "rohan.png"
+        },
+        {
             "name" : "Clara",
             "bio" : "Hi I am Clara (Ziyuan) Wei, an incoming junior in Computer Science and Statistics, and an \"addict\" on coffee and milk tea:):) Fun fact: I play the flute.",
             "picture" : "clara.jpeg"
         },
         {
+            "name" : "Brett",
+            "bio" : "Hi! My name is Brett and I'm currently a sophomore in bioengineering. This is my second semester on course staff and first on infrastructure. If you need help with python, I'm your guy!",
+            "picture" : "brett.jpg"
+        },
+        {
+            "name" : "Albert",
+            "bio" : "getting big",
+            "picture" : "albert.jpg"
+        },
+        {
+            "name" : "Teddy",
+            "bio": "I'm bigger",
+            "picture" : "teddy.jpg"
+        },
+        {
+            "name" : "Aashna",
+            "bio": "I make a mean chocolate chip muffin. And that’s the only mean thing about me.",
+            "picture" : "aashna.jpg"
+        },
+        {
+            "name" : "Shreya",
+            "bio": "I enjoy exercising, cooking, and playing tennis!",
+            "picture" : "shreya_s.png"
+        },
+        {
+            "name" : "Andrea",
+            "bio": "Spurs and Texans fan, an aspiring chef, a wannabe trap producer, and a gym rat.",
+            "picture" : "andrea.png"
+        },
+        {
             "name" : "Isa",
             "bio" : "I love a good craft. Karens love me.",
             "picture" : "isa.png"
+        },
+        {
+            "name" : "Ajay",
+            "bio" : "Member of the human race",
+            "picture" : "ajay.png"
         },
         {
             "name" : "Aileen",
@@ -19,11 +64,6 @@
             "name" : "Vishesh",
             "bio" : "Probably editing a video for Youtube right now... Manchester United and GSW fan",
             "picture" : "vishesh.png"
-        },
-        {
-            "name" : "Teddy",
-            "bio": "",
-            "picture" : "teddy.jpg"
         },
         {
             "name" : "Monika",
