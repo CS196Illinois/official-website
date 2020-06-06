@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ResourcesComponent } from './pages/resources/resources.component';
 import { StaffComponent } from './pages/staff/staff.component';
 import { LecturesTableComponent } from './components/lectures-table/lectures-table.component';
+import { PersonComponent } from './components/person/person.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -23,7 +24,8 @@ const routes: Routes = [
     HomeComponent,
     ResourcesComponent,
     StaffComponent,
-    LecturesTableComponent
+    LecturesTableComponent,
+    PersonComponent
   ],
   imports: [
     BrowserModule,

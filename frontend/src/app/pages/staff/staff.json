@@ -7,7 +7,7 @@
         },
         {
             "name" : "Isa",
-            "bio" : "",
+            "bio" : "I love a good craft. Karens love me.",
             "picture" : "isa.png"
         },
         {
@@ -19,6 +19,16 @@
             "name" : "Vishesh",
             "bio" : "Probably editing a video for Youtube right now... Manchester United and GSW fan",
             "picture" : "vishesh.png"
+        },
+        {
+            "name" : "Teddy",
+            "bio": "",
+            "picture" : "teddy.jpg"
+        },
+        {
+            "name" : "Monika",
+            "bio" : "Someone took a byte out of this donut",
+            "picture" : "monika.png"
         }
     ]
 }

@@ -1,1 +1,3 @@
-<p>staff works!</p>
+<div *ngFor="let person of staff">
+    <app-person name="{{person.name}}" bio="{{person.bio}}" picture="{{person.picture}}" ></app-person>
+</div>

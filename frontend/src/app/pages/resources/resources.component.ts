@@ -10,7 +10,7 @@ export class ResourcesComponent implements OnInit {
 
   faChalkboard = faChalkboard;
   faCode = faCode;
-  faLock=faLock
+  faLock = faLock
   faCog = faCog;
   faDesktop = faDesktop;
   faCircle = faCircle
