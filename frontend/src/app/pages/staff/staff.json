@@ -69,6 +69,11 @@
             "name" : "Monika",
             "bio" : "Someone took a byte out of this donut",
             "picture" : "monika.png"
+        },
+        {
+            "name" : "Bryant",
+            "bio" : "Almost dunked",
+            "picture" : "bryant.jpeg"
         }
     ]
 }
