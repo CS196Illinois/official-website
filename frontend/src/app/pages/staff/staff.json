@@ -36,6 +36,11 @@
             "picture" : "aashna.jpg"
         },
         {
+            "name" : "Matt",
+            "bio" : "I’m a sophomore majoring in Computer Science + Economics. My interests are mobile development, fintech, and data analytics. I’m also a pilot in my free time.",
+            "picture" : "matt.jpeg"
+        },
+        {
             "name" : "Shreya",
             "bio": "I enjoy exercising, cooking, and playing tennis!",
             "picture" : "shreya_s.png"
@@ -56,6 +61,11 @@
             "picture" : "ajay.png"
         },
         {
+            "name" : "William",
+            "bio" : "William is an ECE student interested in Computer Vision and accelerating inference with a mix of hardware and software solutions. Additionally, he's experienced in full-stack app development and with the steps needed to make software solutions to existing problems.",
+            "picture" : "william.jpg"
+        },
+        {
             "name" : "Aileen",
             "bio" : "Painting, sleeping, fitness lover.",
             "picture" : "aileen.jpeg"
@@ -74,6 +84,11 @@
             "name" : "Bryant",
             "bio" : "Almost dunked",
             "picture" : "bryant.jpeg"
+        },
+        {
+            "name" : "Sid",
+            "bio" : "I like making things",
+            "picture" : "sid.jpg"
         }
     ]
 }
