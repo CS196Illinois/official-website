@@ -28,13 +28,18 @@ button {
     border-color: rgba(255,255,0, 0.7);
 }
 
+
 button:hover {
     color: rgba(255, 255, 255, 0.8)
 }
+
 hr {
+    border: none;
     width: 75%;
     color: rgb(255, 253, 253, 0.1);
+    // color: rgba(255,255,0, 0.7);
     margin-top: 30px;
+    height: 3px;
 }
 
 .button-groups {
