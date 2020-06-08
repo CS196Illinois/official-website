@@ -17,7 +17,7 @@
         },
         {
             "name" : "Brett",
-            "bio" : "Hi! My name is Brett and I'm currently a sophomore in bioengineering. This is my second semester on course staff and first on infrastructure. If you need help with python, I'm your guy!",
+            "bio" : "Hi I'm Brett and I'm part of the course staff grading infrastructure! If you have any python related questions, be sure to ask me!",
             "picture" : "brett.jpg"
         },
         {
@@ -66,6 +66,11 @@
             "picture" : "william.jpg"
         },
         {
+            "name" : "Charles",
+            "bio" : "I like dank memes and video games. Coffee is my lifeblood.",
+            "picture" : "charles.jpg"
+        },
+        {
             "name" : "Aileen",
             "bio" : "Painting, sleeping, fitness lover.",
             "picture" : "aileen.jpeg"
@@ -89,6 +94,11 @@
             "name" : "Sid",
             "bio" : "I like making things",
             "picture" : "sid.jpg"
+        },
+        {
+            "name" : "Welby",
+            "bio" : "css isn't a real programming language",
+            "picture" : "welby.jpg"
         }
     ]
 }
