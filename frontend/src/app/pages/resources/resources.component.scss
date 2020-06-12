@@ -1,7 +1,7 @@
 .resources-table {
     height: 100vh;
     width: 75vw;
-    margin: 0;
+    margin-top: 5%;
     padding: 0;
     box-sizing: border-box;
     padding: 0% 8% 20% 8%;
@@ -11,31 +11,92 @@ app-lectures-table {
     width: 100%;
 }
 
-.resource-rows {
-    height: 50vh;
-    display: flex;
-    border-bottom: rgba(17, 13, 13, 0.75) 2px solid;
-}
-
-.resource-row-element {
-    width: 37.5vw;
-    height: 50vh;
-    background-color: rgba(0, 0, 0, 0.75);
-    display: flex;
-    border-right: solid 1px rgba(124, 113, 113, 0.2)
-}
-
-.resource-main {
-    box-sizing: border-box;
-    border-radius: 30px;
-}
-
-section {
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
 
 p {
-    line-height: 2;
+    line-height: 1.8;
+    font-size: large;
+    padding-bottom: 1rem;
+    margin: 0
+}
+.container {
+    width: 90%;
+    padding-bottom: 10%;
+}
+
+.resource {
+    font-size: 3.5rem;
+    color: white;
+    margin-left: 5%;
+    padding-top: 1%
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0.15);
+    min-height: 20rem;
+    // height: 35vh;
+}
+
+h3 {
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+section{
+    padding: 0 0.5rem 0 1rem;
+}
+
+.col-md-6 {
+    border-radius: 3px;
+    border: 0.5px rgba(207, 191, 191, 0.15) solid;
+}
+
+.one {
+    display: flex; 
+    padding: 1.5rem 1rem 0 0.5rem
+}
+
+.link {
+    color: rgba(0, 0, 0, 0);
+    margin-left: 5%;
+}
+
+@media  (max-width: 559px){
+    .resources-table {
+        height: 100vh;
+        width: 100vw;
+        margin-top: 5%;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 0% 0% 20% 0%;
+    }
+    p {
+        line-height: 1.6;
+        font-size: small;
+        padding-bottom: 1rem;
+        margin: 0
+    }
+    h3 {
+        font-size: medium;
+    } 
+    .resource {
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 5%;
+        padding-top: 1%
+    }
+
+    .one {
+        display: flex; 
+        padding: 1rem 0.25rem 0 0.25rem
+    }
+
+    .row {
+        min-height: 15rem;
+        // height: 35vh;
+    }
+    .link {
+        color: white;
+        margin-left: 5%;
+    }
 }
