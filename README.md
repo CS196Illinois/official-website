@@ -8,7 +8,7 @@ To deploy on the server, get access to the `cs196.cs.illinois.edu` Ubuntu server
 The website is deployed using `Apache2 HTTP Server`on the Ubuntu server. To make updates, do the following:
 1. Run `git pull` for the latest changes
 2. Run `ng build --prod` in the frontend directory. This will produce a production build of the website in the `./dist` directory.
-3. Copy all the files within `./dist/website2020` and paste them into `/var/www/html` (Note: you may have to use `sudo`)
+3. Copy all the files within `./dist/website2020` and paste them into `/var/www/html`. Delete everything in `/var/www/html` except `htaccess`
 4. Restart the apache server: `sudo service apache2 restart`
 
 ### Notes:
