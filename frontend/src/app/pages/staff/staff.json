@@ -66,6 +66,11 @@
             "picture" : "william.jpg"
         },
         {
+            "name" : "Leonardo",
+            "bio" : "That pizza was good",
+            "picture" : "leonardo.jpg"
+        },
+        {
             "name" : "Charles",
             "bio" : "I like dank memes and video games. Coffee is my lifeblood.",
             "picture" : "charles.jpg"
@@ -99,6 +104,41 @@
             "name" : "Welby",
             "bio" : "css isn't a real programming language",
             "picture" : "welby.jpg"
-        }
+        },
+        {
+            "name" : "James",
+            "bio" : "Sophomore PC build enthusiast. 6'3\" 150 lbs brown eyes brown hair. Naps are important stay rested and everyone should watch the movie Idiocracy.",
+            "picture" : "james.jpg"
+        },
+        {
+            "name" : "Sruthi",
+            "bio" : "Chiptole, coffee, music, and boba enthusiast :)",
+            "picture" : "sruthi.jpg"
+        },
+        {
+            "name" : "Ahmed",
+            "bio" : "chick-fil-a >>>",
+            "picture" : "ahmed.jpg"
+        },
+        {
+            "name" : "Parth",
+            "bio" : "I like coffee and music",
+            "picture" : "parth.jpg"
+        },
+        {
+            "name" : "Shreya",
+            "bio" : "Hey! I'm a sleep-deprived sophomore in bioengineering interested in data science and eating good food",
+            "picture" : "shreya_b.jpeg"
+        }, 
+        {
+            "name" : "Kanav",
+            "bio" : "I'm a Sophomore majoring in Math and CS, along with a minor in Statistics. My interests include machine learning, data science, abstract math, and swimming.",
+            "picture" : "kanav.jpg"
+        },
+        {
+            "name" : "Nick",
+            "bio" : "My name is Nick and I am studying Systems Engineering but have a heavy interest in Computer Science. My favorite thing to do is snowboard with my friends. My entire state is a suburb of New York.",
+            "picture" : "nick.jpg"
+        } 
     ]
 }
