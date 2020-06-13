@@ -26,3 +26,13 @@
 .cards {
     display: flex
 }
+
+@media  (max-width: 559px){
+    .picture {
+        width: 13rem;
+        height: 13rem;
+    }
+    .card {
+        width: 13rem; 
+    }
+  }
