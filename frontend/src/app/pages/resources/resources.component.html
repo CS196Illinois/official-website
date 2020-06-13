@@ -1,6 +1,19 @@
 <div class="resource-page">
     <div class="big-container" style="background-color: rgba(0, 0, 0, 0.7);">
-        <a [routerLink]="['/']" class="link">homepage</a>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" [routerLink]="['/']">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/staff']" style="color:white">Staff</a>
+              </ul>
+            </div>
+          </nav>
         <p class="resource">Resources</p>
         <div class="container">
             <div class="row">

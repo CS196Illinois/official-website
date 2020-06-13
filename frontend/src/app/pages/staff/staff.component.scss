@@ -18,14 +18,16 @@
   margin-top: 3%
 }
 
-.link {
-  color: rgba(0, 0, 0, 0);
-  margin-left: 5%;
-}
 
 @media  (max-width: 559px){
   .link {
       color: black;
       margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 559px) {
+  nav {
+      display: none;
   }
 }
