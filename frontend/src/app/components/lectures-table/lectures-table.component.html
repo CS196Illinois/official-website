@@ -25,8 +25,12 @@
             </td>
             <td>
                 <span>
-                    <a href={{lecture.video}} target="_blank" rel="nooponer noreferrer"><fa-icon [icon]="faVideo"></fa-icon></a>
+                    <a *ngIf="lecture.video" href={{lecture.video}} target="_blank" rel="nooponer noreferrer">
+                        <fa-icon [icon]="faVideo"></fa-icon>
+                    </a>
+                    <fa-icon *ngIf="!lecture.video" [icon]="faTimes" style="color: red"></fa-icon>
                 </span>
+
             </td>
         </tr>
     </table>

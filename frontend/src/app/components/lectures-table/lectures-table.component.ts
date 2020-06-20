@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as data from './lectures.json';
-import { faChalkboard, faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faChalkboard, faVideo, faCode, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-lectures-table',
@@ -13,6 +13,8 @@ export class LecturesTableComponent implements OnInit {
 
   faChalkboard = faChalkboard;
   faVideo = faVideo;
+  faCode = faCode
+  faTimes = faTimes
 
   constructor() { }
 
