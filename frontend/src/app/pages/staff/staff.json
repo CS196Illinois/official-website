@@ -139,6 +139,11 @@
             "name" : "Nick",
             "bio" : "My name is Nick and I am studying Systems Engineering but have a heavy interest in Computer Science. My favorite thing to do is snowboard with my friends. My entire state is a suburb of New York.",
             "picture" : "nick.jpg"
-        } 
+        },
+        {
+            "name" : "Dan",
+            "bio" : "I've got a passion for good food, a love for swimming, and a talent for submitting assignments at 11:59",
+            "picture" : "dan.jpg"
+        }
     ]
 }

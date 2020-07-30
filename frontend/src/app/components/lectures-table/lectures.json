@@ -1,162 +1,169 @@
 {
     "lectures": [
         {
-            "number": 0,
-            "name": "Welcome to CS196!",
+            "lecture_id": "lecture_id",
+            "title": "title",
+            "date": "date",
+            "slides": "slides",
+            "video": "video"
+        },
+        {
+            "lecture_id": "0",
+            "title": "Welcome to CS196!",
             "date": "Jan 23",
             "slides": "https://docs.google.com/presentation/d/1vfePbQ_-muTiqt2DwsFnhFgIPaE89hwPAkI9IhehoKw/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=fbH-l3zPlUw"
         },
         {
-            "number": 1,
-            "name": "Intro to Bash",
+            "lecture_id": "1",
+            "title": "Intro to Bash",
             "date": "Jan 28",
             "slides": "https://docs.google.com/presentation/d/1iuELVwGU6MBl9vpwHtxOs0x__NFibD2vYLL9QNNc1vw/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=miG5mGcez7I"
         },
         {
-            "number": 2,
-            "name": "Bash Part 2",
+            "lecture_id": "2",
+            "title": "Bash Part 2",
             "date": "Jan 30",
             "slides": "https://docs.google.com/presentation/d/1g-CW-oYopvPaRq-3YrcGIRgdjd9GFtEfQ-9nNzMyH-8/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=m1xScpS8TBU"
         },
         {
-            "number": 3,
-            "name": "Intro to Git",
-            "date": "Feb 04",
+            "lecture_id": "3",
+            "title": "Intro to Git",
+            "date": "Feb 4",
             "slides": "https://docs.google.com/presentation/d/18Jvsq6q1Uaj6YXhvrs2-u-tzp5ocExmF52qVz2vzhRI/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=8rkCIjeC8Ug"
         },
         {
-            "number": 4,
-            "name": "Git Part 2",
-            "date": "Feb 06",
+            "lecture_id": "4",
+            "title": "Git Part 2",
+            "date": "Feb 6",
             "slides": "https://docs.google.com/presentation/d/1I-xHDehKWuUS2DZcNjOAjn9a1mqk_e-bY5vW_W-V8zQ/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=3Km0QRmin-s"
         },
         {
-            "number": 5,
-            "name": "Rust: Variables, Types, Functions, Control",
+            "lecture_id": "5",
+            "title": "Rust: Variables, Types, Functions, Control",
             "date": "Feb 11",
             "slides": "https://docs.google.com/presentation/d/13Q9kIXfmRr03aM9fWCYJj_scxsz2uXU_L8WBOt38BuI/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=pxDTeJmEbsQ"
         },
         {
-            "number": 6,
-            "name": "Rust: Memory, Ownership, Borrowing",
+            "lecture_id": "6",
+            "title": "Rust: Memory, Ownership, Borrowing",
             "date": "Feb 13",
             "slides": "https://docs.google.com/presentation/d/1OaYvkX83rskoEbOiSh6EFZc8jlNgEczYMEBBZIgRdVo/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=kKMF93xkmT0"
         },
         {
-            "number": 7,
-            "name": "Rust: Strings, Slicing, Structs",
+            "lecture_id": "7",
+            "title": "Rust: Strings, Slicing, Structs",
             "date": "Feb 18",
             "slides": "https://docs.google.com/presentation/d/1LhTKxFj3S9KtEkU1cPC4uBPyWgUH3GNceBimIY0YQlg/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=TVO6ptnnPwE"
         },
         {
-            "number": 8,
-            "name": "Debugging",
+            "lecture_id": "8",
+            "title": "Debugging",
             "date": "Feb 20",
             "slides": "https://docs.google.com/presentation/d/1XhRkljumUWUTnxvaUV7L0Y2vtx7-_f_jBfNB_77G-14/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=Np7UN-SeYP4"
         },
         {
-            "number": 9,
-            "name": "API Calls, Requests, JSON",
+            "lecture_id": "9",
+            "title": "API Calls, Requests, JSON",
             "date": "Feb 25",
             "slides": "https://docs.google.com/presentation/d/1Nxv1Og92m9m_5WnoOOZiD0oCJg2iWOcTfRXoqqIvMs4/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=C362eb09sJo"
         },
         {
-            "number": 10,
-            "name": "Consuming Libraries and Frameworks",
+            "lecture_id": "10",
+            "title": "Consuming Libraries and Frameworks",
             "date": "Feb 27",
             "slides": "https://docs.google.com/presentation/d/1DbgTAizoVUn4FLTHtjR-3HPcOZQvJ1KypdHlCySS8y0/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=GUC81FD1UBM"
         },
         {
-            "number": 11,
-            "name": "Intro to Plato",
-            "date": "Mar 03",
+            "lecture_id": "11",
+            "title": "Intro to Plato",
+            "date": "Mar 3",
             "slides": "https://docs.google.com/presentation/d/1L13LCuNKN2vFS64aSSlrCmTIml9riIx6_4cI-dn-0_s/edit?usp=sharing",
             "video": ""
         },
         {
-            "number": 12,
-            "name": "How To Get an Internship",
-            "date": "Mar 05",
+            "lecture_id": "12",
+            "title": "How To Get an Internship",
+            "date": "Mar 5",
             "slides": "https://docs.google.com/presentation/d/15uYDO5-G_sqhMQ0JSCqckgn2V9qWKdeoL9UQrTvbePI/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=7nmc8lFtVok"
         },
         {
-            "number": 13,
-            "name": "Regular Expressions (Regex)",
+            "lecture_id": "13",
+            "title": "Regular Expressions (RegEx)",
             "date": "Mar 24",
             "slides": "https://docs.google.com/presentation/d/1nJrZrnOB4Db64D6WRRpAHlN0JAGxSJijhxNRa-QsfRI/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=ytL5QRg86T0"
         },
         {
-            "number": 14,
-            "name": "Data Mining",
+            "lecture_id": "14",
+            "title": "Data Mining",
             "date": "Mar 26",
             "slides": "https://docs.google.com/presentation/d/1Y1OKyhUFCisVpRvAaaTU08Jro_0HKfUtpHIy6MSAW9o/edit?usp=sharing",
             "video": ""
         },
         {
-            "number": 15,
-            "name": "Rust: Linked Lists, Smart Pointers",
+            "lecture_id": "15",
+            "title": "Rust: Linked Lists, Smart Pointers",
             "date": "Mar 31",
             "slides": "https://docs.google.com/presentation/d/1-XW_8kQJsDe2Z1nztuCiofvGYG_Nyk3B-fCAoquBR50/edit?usp=sharing",
             "video": "https://youtu.be/2q1AzGUwL7M"
         },
         {
-            "number": 16,
-            "name": "Stacks, Queues, Applications",
-            "date": "April 02",
+            "lecture_id": "16",
+            "title": "Stacks, Queues, Applications",
+            "date": "April 2",
             "slides": "https://docs.google.com/presentation/d/1xrTOonZMV2vSASAGiw75v-ZyTZtGenaB1tCjWbyI_X0/edit?usp=sharing",
             "video": ""
         },
         {
-            "number": 17,
-            "name": "Fearless Recursion",
-            "date": "April 07",
+            "lecture_id": "17",
+            "title": "Fearless Recursion",
+            "date": "April 7",
             "slides": "https://docs.google.com/presentation/d/1TKagURPnLprnGIBrAAV5nERK5WyYdZxFp5sJcueUiYA/edit?usp=sharing",
             "video": "https://youtu.be/bs8vEqfCp_Q"
         },
         {
-            "number": 18,
-            "name": "Dynamic Programming",
-            "date": "April 09",
+            "lecture_id": "18",
+            "title": "Dynamic Programming",
+            "date": "April 9",
             "slides": "https://docs.google.com/presentation/d/1tOzfqzWemlvlB5F5CBuY0Fun5a0VmMaSxW62A2D7wYQ/edit?usp=sharing",
             "video": ""
         },
         {
-            "number": 19,
-            "name": "Functional Programming",
+            "lecture_id": "19",
+            "title": "Functional Programming",
             "date": "April 14",
             "slides": "https://docs.google.com/presentation/d/1woDT9dSYM7CriTYay_S8a7HsGBn63H8bQ7auN_X29jo/edit?usp=sharing",
             "video": "https://youtu.be/6dRy_K8IW5w"
         },
         {
-            "number": 20,
-            "name": "Recursive Backtracking",
+            "lecture_id": "20",
+            "title": "Recursive Backtracking",
             "date": "April 16",
             "slides": "https://docs.google.com/presentation/d/1NFLcAKMj5a4rA6FDhn3rjk0Pwr3eurmzdSKqmP0TQW0/edit?usp=sharing",
             "video": ""
         },
         {
-            "number": 21,
-            "name": "Rust: Concurrency, Threads, Channels",
+            "lecture_id": "21",
+            "title": "Rust: Concurrency, Threads, Channels",
             "date": "April 21",
             "slides": "https://docs.google.com/presentation/d/1C1ysBfxvrI-3jNHgSluEEp2iqzKEFLZgIPeNkI-Zacg/edit?usp=sharing",
             "video": "https://youtu.be/JXDkdaGEuVU"
         },
         {
-            "number": 22,
-            "name": "Rust: Shared State Concurrency, Mutexes",
+            "lecture_id": "22",
+            "title": "Rust: Shared State Concurrency, Mutexes",
             "date": "April 23",
             "slides": "https://docs.google.com/presentation/d/13erBOAeIgAYreX1M99da5LmyVE39TPH4hugf0medwh4/edit?usp=sharing",
             "video": "https://youtu.be/ihexwD4fZr0"
