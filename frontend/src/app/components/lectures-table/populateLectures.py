@@ -2,7 +2,7 @@ import csv
 import json
 from collections import OrderedDict
 
-fields = ('lecture_id', 'title', 'date', 'slides', 'video')
+fields = ('lectureID', 'title', 'date', 'slides', 'video')
 entries = []
 
 with open('./lecture_data.csv', 'r') as csvFile:
