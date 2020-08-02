@@ -1,4 +1,7 @@
 #!/bin/bash
+cd ./frontend
+ng build --prod
+cd ..
 rm -rf ../../../var/www/html/{*,.*}
 cp -R ./frontend/dist/website2020/. ../../../var/www/html
 cp ./frontend/.htaccess ../../../var/www/html
