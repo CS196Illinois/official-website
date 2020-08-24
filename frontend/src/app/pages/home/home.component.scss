@@ -101,6 +101,7 @@ button:hover {
         margin: 2rem 0;
         display: block;
     }
+
     button {
         margin-top: 2rem;
         margin-left: auto;
@@ -108,10 +109,11 @@ button:hover {
         width: 100%;
         font-size: 10px;
     }
+
 }
 
 @media only screen and (min-width: 559px) {
-    .button-3 {
+    .button-4 {
         display: none;
     }
 }
