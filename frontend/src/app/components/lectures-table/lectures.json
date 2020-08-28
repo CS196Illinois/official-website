@@ -6,6 +6,13 @@
             "date": "Aug 25",
             "slides": "https://docs.google.com/presentation/d/1vfePbQ_-muTiqt2DwsFnhFgIPaE89hwPAkI9IhehoKw/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=fbH-l3zPlUw"
+        },
+        {
+            "lectureID": "1",
+            "title": "Bash 1",
+            "date": "Aug 27",
+            "slides": "https://docs.google.com/presentation/d/1iuELVwGU6MBl9vpwHtxOs0x__NFibD2vYLL9QNNc1vw/edit?usp=sharing",
+            "video": "https://youtu.be/J1fCBAW9V5g"
         }
     ]
 }
