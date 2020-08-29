@@ -13,6 +13,14 @@
             "date": "Aug 27",
             "slides": "https://docs.google.com/presentation/d/1iuELVwGU6MBl9vpwHtxOs0x__NFibD2vYLL9QNNc1vw/edit?usp=sharing",
             "video": "https://youtu.be/J1fCBAW9V5g"
+        },
+        {
+            "lectureID": "1.5",
+            "title": "Bash 1 Part 2",
+            "date": "Aug 27",
+            "slides": "https://docs.google.com/presentation/d/1iuELVwGU6MBl9vpwHtxOs0x__NFibD2vYLL9QNNc1vw/edit?usp=sharing",
+            "video": "https://youtu.be/XxzwLon-cWQ"
         }
+
     ]
 }
