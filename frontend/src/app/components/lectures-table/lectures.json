@@ -27,6 +27,13 @@
             "date": "Sept 1",
             "slides": "https://docs.google.com/presentation/d/1g-CW-oYopvPaRq-3YrcGIRgdjd9GFtEfQ-9nNzMyH-8/edit?usp=sharing",
             "video": "https://youtu.be/KQWygP2JSsM"
+        },
+        {
+            "lectureID": "3",
+            "title": "Git 1",
+            "date": "Sept 3",
+            "slides": "https://docs.google.com/presentation/d/18Jvsq6q1Uaj6YXhvrs2-u-tzp5ocExmF52qVz2vzhRI/edit?usp=sharing",
+            "video": ""
         }
 
     ]
