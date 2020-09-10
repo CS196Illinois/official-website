@@ -154,6 +154,11 @@
             "name" : "Ben",
             "bio" : "Junior in CS. I enjoy playing club water polo and with my pet hedgehog, Young Chop",
             "picture" : "ben.jpg"
+        },
+        {
+            "name" : "Raghav",
+            "bio" : "HackIllinois fanboy :) \n Stats & CS major, Kotlin fanboy, aspiring Twitter influencer. Nothing goes harder than Cold Brew",
+            "picture" : "raghav.png"
         }
     ]
 }
