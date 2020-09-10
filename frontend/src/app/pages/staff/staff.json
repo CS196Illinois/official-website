@@ -121,11 +121,6 @@
             "picture" : "ahmed.jpg"
         },
         {
-            "name" : "Parth",
-            "bio" : "I like coffee and music",
-            "picture" : "parth.jpg"
-        },
-        {
             "name" : "Shreya",
             "bio" : "Hey! I'm a sleep-deprived sophomore in bioengineering interested in data science and eating good food",
             "picture" : "shreya_b.jpeg"
@@ -144,6 +139,21 @@
             "name" : "Dan",
             "bio" : "I've got a passion for good food, a love for swimming, and a talent for submitting assignments at 11:59",
             "picture" : "dan.jpg"
+        },
+        {
+            "name" : "Grace",
+            "bio" : "ask me for fun facts about rocks",
+            "picture" : "grace.jpg"
+        },
+        {
+            "name" : "",
+            "bio" : "I’m a sophomore majoring in Computer Science. My interests include software development, mathematics, and watching basketball.",
+            "picture" : "saket.jpg"
+        },
+        {
+            "name" : "Ben",
+            "bio" : "Junior in CS. I enjoy playing club water polo and with my pet hedgehog, Young Chop",
+            "picture" : "ben.jpg"
         }
     ]
 }
