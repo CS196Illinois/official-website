@@ -1,4 +1,7 @@
 # fall-2020-website
+
+Official CS196 Website: [cs196.cs.illinois.edu](http://cs196.cs.illinois.edu)
+
 Updated website written in Angular
 
 ## Deployment
