@@ -1,24 +1,14 @@
 {
     "staff": [
         {
-            "name" : "Sami",
-            "bio" : "Chipotle enthusiast, wanna-be standup comedian, slacking fitness lover",
-            "picture" : "sami.jpg"
+            "name" : "Eustis",
+            "bio" : "computer vision go brrrrr",
+            "picture" : "william.jpg"
         },
         {
-            "name" : "Rohan",
-            "bio" : "I am passionate about data analytics and using data to solve problems, big coffee guy, and I mess around in GarageBand in my free time.",
-            "picture" : "rohan.png"
-        },
-        {
-            "name" : "Clara",
-            "bio" : "Hi I am Clara (Ziyuan) Wei, an incoming junior in Computer Science and Statistics, and an \"addict\" on coffee and milk tea:):) Fun fact: I play the flute.",
-            "picture" : "clara.jpeg"
-        },
-        {
-            "name" : "Brett",
-            "bio" : "Hi I'm Brett and I'm part of the course staff grading infrastructure! If you have any python related questions, be sure to ask me!",
-            "picture" : "brett.jpg"
+            "name" : "Matt",
+            "bio" : "I’m a sophomore majoring in Computer Science + Economics. My interests are mobile development, fintech, and data analytics. I’m also a pilot in my free time.",
+            "picture" : "matt.jpeg"
         },
         {
             "name" : "Albert",
@@ -34,11 +24,6 @@
             "name" : "Aashna",
             "bio": "I make a mean chocolate chip muffin. And that’s the only mean thing about me.",
             "picture" : "aashna.jpg"
-        },
-        {
-            "name" : "Matt",
-            "bio" : "I’m a sophomore majoring in Computer Science + Economics. My interests are mobile development, fintech, and data analytics. I’m also a pilot in my free time.",
-            "picture" : "matt.jpeg"
         },
         {
             "name" : "Shreya",
@@ -59,11 +44,6 @@
             "name" : "Ajay",
             "bio" : "Member of the human race",
             "picture" : "ajay.png"
-        },
-        {
-            "name" : "William",
-            "bio" : "William is an ECE student interested in Computer Vision and accelerating inference with a mix of hardware and software solutions. Additionally, he's experienced in full-stack app development and with the steps needed to make software solutions to existing problems.",
-            "picture" : "william.jpg"
         },
         {
             "name" : "Leonardo",
