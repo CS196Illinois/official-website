@@ -41,6 +41,11 @@
             "picture" : "shreya_b.jpeg"
         }, 
         {
+            "name" : "Meghna",
+            "bio" : "",
+            "picture" : "logo.png"
+        }, 
+        {
             "name" : "Jasmine",
             "bio" : "Hi! I'm Jasmine, an avid foodie who takes daily naps and is trying to get on the Chloe Ting grind",
             "picture" : "jasmine.jpeg"
