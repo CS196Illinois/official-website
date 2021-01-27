@@ -27,7 +27,7 @@
         },
         {
             "name" : "Charles",
-            "bio" : "I like dank memes and video games. Coffee is my lifeblood.",
+            "bio" : "coffee",
             "picture" : "charles.jpg"
         },
         {
@@ -66,8 +66,13 @@
             "picture" : "tanishq.jpg"
         }, 
         {
-            "name" : "Rayna",
+            "name" : "Ishani",
             "bio" : "Foodie and bubble tea lover. Amateur/aspiring skateboarder. Coding is cool too, I guess.",
+            "picture" : "ishani.jpg"
+        }, 
+        {
+            "name" : "Rayna",
+            "bio" : "",
             "picture" : "rayna.jpg"
         }, 
         {
