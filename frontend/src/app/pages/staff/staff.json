@@ -16,21 +16,6 @@
             "picture" : "albert.jpg"
         },
         {
-            "name" : "Teddy",
-            "bio": "I'm bigger",
-            "picture" : "teddy.jpg"
-        },
-        {
-            "name" : "Aashna",
-            "bio": "I make a mean chocolate chip muffin. And that’s the only mean thing about me.",
-            "picture" : "aashna.jpg"
-        },
-        {
-            "name" : "Shreya",
-            "bio": "two thumbs up for cs196",
-            "picture" : "shreya_s.png"
-        },
-        {
             "name" : "Andrea",
             "bio": "Spurs and Texans fan, an aspiring chef, a wannabe trap producer, and a gym rat.",
             "picture" : "andrea.png"
@@ -41,44 +26,9 @@
             "picture" : "isa.png"
         },
         {
-            "name" : "Ajay",
-            "bio" : "Member of the human race",
-            "picture" : "ajay.png"
-        },
-        {
-            "name" : "Leonardo",
-            "bio" : "That pizza was good",
-            "picture" : "leonardo.jpg"
-        },
-        {
             "name" : "Charles",
             "bio" : "I like dank memes and video games. Coffee is my lifeblood.",
             "picture" : "charles.jpg"
-        },
-        {
-            "name" : "Aileen",
-            "bio" : "Painting, sleeping, fitness lover.",
-            "picture" : "aileen.jpeg"
-        },
-        {
-            "name" : "Vishesh",
-            "bio" : "Probably editing a video for Youtube right now... Manchester United and GSW fan",
-            "picture" : "vishesh.png"
-        },
-        {
-            "name" : "Monika",
-            "bio" : "Someone took a byte out of this donut",
-            "picture" : "monika.png"
-        },
-        {
-            "name" : "Bryant",
-            "bio" : "Almost dunked",
-            "picture" : "bryant.jpeg"
-        },
-        {
-            "name" : "Sid",
-            "bio" : "I like making things",
-            "picture" : "sid.jpg"
         },
         {
             "name" : "Welby",
@@ -86,59 +36,124 @@
             "picture" : "welby.jpg"
         },
         {
-            "name" : "James",
-            "bio" : "Sophomore PC build enthusiast. 6'3\" 150 lbs brown eyes brown hair. Naps are important stay rested and everyone should watch the movie Idiocracy.",
-            "picture" : "james.jpg"
-        },
-        {
-            "name" : "Sruthi",
-            "bio" : "Chipotle, coffee, music, and boba enthusiast :)",
-            "picture" : "sruthi.jpg"
-        },
-        {
-            "name" : "Ahmed",
-            "bio" : "chick-fil-a >>>",
-            "picture" : "ahmed.jpg"
-        },
-        {
             "name" : "Shreya",
             "bio" : "Hey! I'm a sleep-deprived sophomore in bioengineering interested in data science and eating good food",
             "picture" : "shreya_b.jpeg"
         }, 
         {
-            "name" : "Kanav",
-            "bio" : "I'm a Sophomore majoring in Math and CS, along with a minor in Statistics. My interests include machine learning, data science, abstract math, and swimming.",
-            "picture" : "kanav.jpg"
-        },
+            "name" : "Jasmine",
+            "bio" : "Hi! I'm Jasmine, an avid foodie who takes daily naps and is trying to get on the Chloe Ting grind",
+            "picture" : "jasmine.jpeg"
+        }, 
+        {
+            "name" : "Sal",
+            "bio" : "Hey I’m Sal, feel free to reach out to me if you’d like to get smashed in 2k.",
+            "picture" : "logo.png"
+        }, 
+        {
+            "name" : "Tianyun",
+            "bio" : "Sprinkle of optimistic existentialism. I also play violin.",
+            "picture" : "tianyun.jpg"
+        }, 
+        {
+            "name" : "Meghan",
+            "bio" : "I'm a freshman majoring in Computer Science & Philosophy. My interests include App Development, Computer Security, and traveling.",
+            "picture" : "meghan.jpg"
+        }, 
+        {
+            "name" : "Tanishq",
+            "bio" : "I think the Office has to be the most underrated show of all time. I'm just a Comp Sci and Phil major who loves Steve Carell.",
+            "picture" : "tanishq.jpg"
+        }, 
+        {
+            "name" : "Rayna",
+            "bio" : "Foodie and bubble tea lover. Amateur/aspiring skateboarder. Coding is cool too, I guess.",
+            "picture" : "rayna.jpg"
+        }, 
+        {
+            "name" : "Neil",
+            "bio" : "Hi! I'm Neil, and I'm a freshman in CS. Come talk to me about Python, soccer, and/or baseball!",
+            "picture" : "neil.jpg"
+        }, 
+        {
+            "name" : "Nishanth",
+            "bio" : "the cake is a lie :((",
+            "picture" : "nishanth.png"
+        }, 
+        {
+            "name" : "Daniel",
+            "bio" : "As a reward for joining CS196 have a cake.",
+            "picture" : "daniel.jpg"
+        }, 
+        {
+            "name" : "Jeffrey",
+            "bio" : "",
+            "picture" : "logo.png"
+        }, 
         {
             "name" : "Nick",
-            "bio" : "My name is Nick and I am studying Systems Engineering but have a heavy interest in Computer Science. My favorite thing to do is snowboard with my friends. My entire state is a suburb of New York.",
-            "picture" : "nick.jpg"
-        },
+            "bio" : "Hi, I am Nick! I am in marching band, I enjoy trying new restaurants, and I love talking to new people!",
+            "picture" : "nick_k.jpg"
+        }, 
         {
-            "name" : "Dan",
-            "bio" : "I've got a passion for good food, a love for swimming, and a talent for submitting assignments at 11:59",
-            "picture" : "dan.jpg"
-        },
+            "name" : "Anjali",
+            "bio" : "fan of porch swings, thali meals, and sleep",
+            "picture" : "anjali.jpeg"
+        }, 
         {
-            "name" : "Grace",
-            "bio" : "ask me for fun facts about rocks",
-            "picture" : "grace.jpg"
-        },
+            "name" : "Amit",
+            "bio" : "I am a CS + Math major! Probably will respond within a minute. ATLA S3 : E13 : 6:40-6:45",
+            "picture" : "amit.jpg"
+        }, 
         {
-            "name" : "Saket",
-            "bio" : "I’m a sophomore majoring in Computer Science. My interests include software development, mathematics, and watching basketball.",
-            "picture" : "saket.jpg"
-        },
+            "name" : "Trisha",
+            "bio" : "she/her; talk to me about mcu, ariana grande, and criminal minds",
+            "picture" : "trisha.jpeg"
+        }, 
         {
-            "name" : "Ben",
-            "bio" : "Junior in CS. I enjoy playing club water polo and with my pet hedgehog, Young Chop",
-            "picture" : "ben.jpg"
-        },
+            "name" : "Emily",
+            "bio" : "catch me taking care of my plants, drinking tea, and wearing striped shirts ",
+            "picture" : "emily.jpeg"
+        }, 
+        {
+            "name" : "Timothy",
+            "bio" : "my body is segfaulting due to my caffeine addiction",
+            "picture" : "timothy.jpg"
+        }, 
+        {
+            "name" : "Jonah",
+            "bio" : "Passionate about Machine Learning. Enjoys Golf, Tennis, and Surfing. Occasionally plays Chess and Piano. Cruising through life sleep-deprived.",
+            "picture" : "logo.png"
+        }, 
+        {
+            "name" : "Faraz",
+            "bio" : "CS and Advertising major interested in sorting and organizing data to make inferences. ",
+            "picture" : "faraz.jpeg"
+        }, 
+        {
+            "name" : "Drshika",
+            "bio" : "rl",
+            "picture" : "drshika.jpg"
+        }, 
+        {
+            "name" : "Rachel",
+            "bio" : "milk before cereal",
+            "picture" : "logo.png"
+        }, 
+        {
+            "name" : "Arnab",
+            "bio" : "Genius. Billionaire. Philanthropist. I am absolutely none of these things, but I know the reference.",
+            "picture" : "arnab.JPG"
+        }, 
         {
             "name" : "Raghav",
-            "bio" : "HackIllinois fanboy :) \n Stats & CS major, Kotlin fanboy, aspiring Twitter influencer. Nothing goes harder than Cold Brew",
-            "picture" : "raghav.png"
-        }
+            "bio" : "CS Major, jazz pianist, and always eager to help!",
+            "picture" : "raghav.jpeg"
+        }, 
+        {
+            "name" : "John",
+            "bio" : "I enjoy photography, rowing, and gaming in my free time. Plus I don’t have Covid 😎",
+            "picture" : "john.jpeg"
+        } 
     ]
 }
