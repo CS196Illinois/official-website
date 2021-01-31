@@ -86,14 +86,14 @@
             "picture" : "neil.jpg"
         }, 
         {
-            "name" : "Nishanth",
-            "bio" : "the cake is a lie :((",
-            "picture" : "nishanth.png"
-        }, 
-        {
             "name" : "Daniel",
             "bio" : "As a reward for joining CS196 have a cake.",
             "picture" : "daniel.jpg"
+        }, 
+        {
+            "name" : "Nishanth",
+            "bio" : "the cake is a lie :((",
+            "picture" : "nishanth.png"
         }, 
         {
             "name" : "Jeffrey",
@@ -142,11 +142,11 @@
         }, 
         {
             "name" : "Drshika",
-            "bio" : "rl",
+            "bio" : "(she/her) hackillinois fan girl, CS major. Probably singing in the shower or serially procrastinating. Spotify: penguinlvr02",
             "picture" : "drshika.jpg"
         }, 
         {
-            "name" : "Rachel",
+            "name" : "Rachael",
             "bio" : "milk before cereal",
             "picture" : "logo.png"
         }, 
@@ -161,7 +161,7 @@
             "picture" : "raghav.jpeg"
         }, 
         {
-            "name" : "John",
+            "name" : "Malcolm",
             "bio" : "I enjoy photography, rowing, and gaming in my free time. Plus I don’t have Covid 😎",
             "picture" : "john.jpeg"
         } 

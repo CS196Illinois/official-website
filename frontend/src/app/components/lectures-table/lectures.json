@@ -5,7 +5,15 @@
             "title": "Welcome to CS196!",
             "date": "Jan 26",
             "slides": "",
-            "video": ""
+            "video": "https://youtu.be/Uk3e-Pb951k"
+        },
+        {
+            "lectureID": "1",
+            "title": "Bash 1",
+            "date": "Jan 28",
+            "slides": "https://docs.google.com/presentation/d/13rkwePEXZrklGepk3dwCMTZCS3J8VMHUtr_DQm0r6aw/edit?usp=sharing",
+            "video": "https://youtu.be/lOIPiB6xykQ"
         }
+
 	]
 }
