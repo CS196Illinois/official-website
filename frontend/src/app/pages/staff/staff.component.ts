@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as data from './staff.json';
+import * as data from '../../../assets/staff.json';
 
 @Component({
   selector: 'app-staff',

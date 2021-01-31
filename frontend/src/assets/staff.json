@@ -42,8 +42,8 @@
         }, 
         {
             "name" : "Meghna",
-            "bio" : "",
-            "picture" : "logo.png"
+            "bio" : "Hi! I’m Meghna, a freshman majoring in CS. Feel free to hmu to talk about anything and everything under the sun :)",
+            "picture" : "meghna.jpg"
         }, 
         {
             "name" : "Jasmine",
@@ -133,7 +133,7 @@
         {
             "name" : "Jonah",
             "bio" : "Passionate about Machine Learning. Enjoys Golf, Tennis, and Surfing. Occasionally plays Chess and Piano. Cruising through life sleep-deprived.",
-            "picture" : "logo.png"
+            "picture" : "jonah.jpg"
         }, 
         {
             "name" : "Faraz",

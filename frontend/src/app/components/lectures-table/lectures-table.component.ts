@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as data from './lectures.json';
+import * as data from '../../../assets/lectures.json';
 import { faChalkboard, faVideo, faCode, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
