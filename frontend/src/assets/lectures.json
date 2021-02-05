@@ -20,6 +20,13 @@
             "date": "Feb 2",
             "slides": "https://docs.google.com/presentation/d/1uWfQfzhsIZCqTBbB5W2tsDcAV8lcdxRVL-faOtXP42Y/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=7zULoNaenvQ"
+        },
+        {
+            "lectureID": "3",
+            "title": "Git 1",
+            "date": "Feb 4",
+            "slides": "https://docs.google.com/presentation/d/1toLDbE4PLlKVKaNiR22JWO1z8bf7S_J842gNXV1spwc/edit?usp=sharing",
+            "video": "https://youtu.be/00LDZh4IJ9g"
         }
 	]
 }
