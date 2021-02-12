@@ -34,6 +34,13 @@
             "date": "Feb 9",
             "slides": "https://docs.google.com/presentation/d/1e68E7P7hk259YRsrnNKiihWEAZLsgUFy330_mV-LTHs/edit?usp=sharing",
             "video": "https://www.youtube.com/watch?v=QCnz_GQmTis"
+        },
+        {
+            "lectureID": "5",
+            "title": "Git 3",
+            "date": "Feb 11",
+            "slides": "https://docs.google.com/presentation/d/1Kb4RFWsebaMbjzpmAVXv3Zumh_ULAU-XjJTeMxNaGEg/edit?usp=sharing",
+            "video": "https://youtu.be/OcESHUakJy4"
         }
 	]
 }
