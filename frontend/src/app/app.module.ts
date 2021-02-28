@@ -10,11 +10,13 @@ import { ResourcesComponent } from './pages/resources/resources.component';
 import { StaffComponent } from './pages/staff/staff.component';
 import { LecturesTableComponent } from './components/lectures-table/lectures-table.component';
 import { PersonComponent } from './components/person/person.component';
+import { GradesComponent } from './pages/grades/grades.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'resources', component: ResourcesComponent },
   { path: 'staff', component: StaffComponent},
+  { path: 'grades', component: GradesComponent}
 ];
 
 @NgModule({
@@ -25,7 +27,8 @@ const routes: Routes = [
     ResourcesComponent,
     StaffComponent,
     LecturesTableComponent,
-    PersonComponent
+    PersonComponent,
+    GradesComponent
   ],
   imports: [
     BrowserModule,
