@@ -11,6 +11,7 @@ import { StaffComponent } from './pages/staff/staff.component';
 import { LecturesTableComponent } from './components/lectures-table/lectures-table.component';
 import { PersonComponent } from './components/person/person.component';
 import { GradesComponent } from './pages/grades/grades.component';
+import { HttpClientModule } from '@angular/common/http'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -35,7 +36,8 @@ const routes: Routes = [
     RouterModule.forRoot(
       routes
     ),
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

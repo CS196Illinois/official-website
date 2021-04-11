@@ -1,0 +1,24 @@
+{
+    "grades": [
+        {
+            "assignmentType": "Homework",
+            "assignment": "Python3",
+            "grades": "100"
+        },
+        {
+            "assignmentType": "Project",
+            "assignment": "Sprint 0",
+            "grades": "100"
+        },
+        {
+            "assignmentType": "Attendance",
+            "assignment": "Att Django",
+            "grades": "100"
+        },
+        {
+            "assignmentType": "Extra Credit",
+            "assignment": "EC1",
+            "grades": "100"
+        }
+    ]
+}
