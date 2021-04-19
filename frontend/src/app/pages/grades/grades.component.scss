@@ -17,6 +17,8 @@ h2, th, tbody {
     font-weight: 300;
     text-align: left;
     font-size: 1.5rem;
+    width: 35vw;
+    padding-left: 10px;
 }
 h2 {
     margin-block-start: 0.43em;
@@ -25,11 +27,11 @@ h2 {
 table {
     border-spacing: 20px;
     table-layout: auto;
-    width: 56vw;
+    width: 69vw;
 }
-th, td {
-    padding: 7px;
+td {
     font-size: 1.1rem;
+    padding-left: 10px;
 }
 table tr:nth-child(2n) {
     background-color: whitesmoke;
@@ -37,8 +39,8 @@ table tr:nth-child(2n) {
 table tr:nth-child(2n+1) {
     background-color: rgb(211, 211, 211);
 }
-.Attendance, .Homework, .Project, .ExtraCredit, .Overall {
-    padding-left: 1.5vw;
+.Attendance {
+    padding-left: 3vw;
     padding-top: 0.25vw;
 }
 span {
@@ -53,7 +55,7 @@ span {
         left:11%;
     }
     table {
-        width: 75vw;
+        width: 94vw;
     }
     .title h1 {
         font-size: 3rem;

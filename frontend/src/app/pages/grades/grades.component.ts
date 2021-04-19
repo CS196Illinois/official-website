@@ -20,7 +20,7 @@ export class GradesComponent implements OnInit {
 
   
   ngOnInit() {
-    this.http.get('http://127.0.0.1:5000/').subscribe(data => {
+    this.http.get('http://127.0.0.1:5000/api').subscribe(data => {
     var test = JSON.parse(JSON.stringify(data))
     this.homework_grades = test.grades.filter((item) => item.assignmentType == 'Homework');
     this.attendance_grades = test.grades.filter((item) => item.assignmentType == 'Attendance');
