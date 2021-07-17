@@ -5,10 +5,6 @@ import { Observable, ReplaySubject } from "rxjs";
   providedIn: "root",
 })
 export class LoginService {
-  // user = {
-  //   isSignedIn: false,
-  //   id_token: "",
-  // };
   public gUser = new ReplaySubject<gapi.auth2.GoogleUser>(1);
   private auth2: gapi.auth2.GoogleAuth;
 
@@ -41,14 +37,4 @@ export class LoginService {
   public observable(): Observable<gapi.auth2.GoogleUser> {
     return this.gUser.asObservable();
   }
-
-  // public signedIn() {
-  //   this.isSignedIn.next(true);
-  // }
-  // login(googleUser) {
-  //   console.log("Login Service");
-  //   this.signedIn();
-  //   this.user.isSignedIn = true;
-  //   this.user.id_token = googleUser.getAuthResponse().id_token;
-  // }
 }

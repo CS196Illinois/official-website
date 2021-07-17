@@ -12,12 +12,10 @@ export class GradesService {
   constructor(private http: HttpClient, private LoginService: LoginService) {
     this.LoginService.observable().subscribe((user) => {
       this.user = user;
-      console.log(this.user);
     });
   }
 
   getGrades(): Observable<JSON> {
-    console.log(this.user.getAuthResponse().id_token);
     const httpOptions = {
       headers: new HttpHeaders({
         Authorization: this.user.getAuthResponse().id_token,

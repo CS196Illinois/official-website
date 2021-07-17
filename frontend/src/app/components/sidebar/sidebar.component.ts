@@ -7,18 +7,7 @@ import { LoginService } from "src/app/services/login.service";
   styleUrls: ["./sidebar.component.scss"],
 })
 export class SidebarComponent implements OnInit {
-  constructor(ngZone: NgZone, private loginService: LoginService) {
-    // window["onSignIn"] = (user) =>
-    //   ngZone.run(() => {
-    //     this.loginService.login(user);
-    //   });
-  }
+  constructor(ngZone: NgZone, private loginService: LoginService) {}
 
   ngOnInit() {}
-
-  // signIn(googleUser) {
-  //   this.loginService.login(googleUser);
-  //   console.log("test");
-  //   console.log(this.loginService.user.id_token);
-  // }
 }

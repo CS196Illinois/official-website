@@ -1,7 +1,6 @@
-import { Component, OnInit, NgZone } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
-import { LoginService } from "src/app/services/login.service";
+import { Component, OnInit, ChangeDetectorRef } from "@angular/core";
 import { GradesService } from "src/app/services/grades.service";
+import { LoginService } from "src/app/services/login.service";
 
 @Component({
   selector: "app-grades",
@@ -9,41 +8,23 @@ import { GradesService } from "src/app/services/grades.service";
   styleUrls: ["./grades.component.scss"],
 })
 export class GradesComponent implements OnInit {
-  //parse json data for grades
   homework_grades;
   attendance_grades;
   project_grades;
   extra_credit_grades;
-  user;
+  user: gapi.auth2.GoogleUser;
   constructor(
-    ngZone: NgZone,
-    private http: HttpClient,
-    private loginService: LoginService,
-    private GradesService: GradesService
-  ) {
-    // window["onSignIn"] = (user) =>
-    //   ngZone.run(() => {
-    //     this.loginService.login(user);
-    //   });
-  }
+    private GradesService: GradesService,
+    private LoginService: LoginService,
+    private ref: ChangeDetectorRef
+  ) {}
 
   ngOnInit() {
-    // // this.loginService.isSignedIn$.subscribe((data) => {
-    // //   console.log(data);
-    // //   if (data) {
-    // //     this.displayGrades();
-    // //   } else {
-    // //     let title = document.querySelector("h1");
-    // //     let table = <HTMLElement>document.querySelector(".Attendance");
-    // //     table.style.display = "none";
-    // //     title.style.marginTop = "10%";
-    // //     title.style.fontSize = "24px";
-    // //     title.textContent =
-    // //       "Please sign in with your Google Illinois account to access your grades.";
-    // //   }
-    // // });
-    if (this.GradesService.user) {
-      console.log("this works");
+    this.LoginService.observable().subscribe((user) => {
+      this.user = user;
+      this.ref.detectChanges();
+    });
+    if (this.user) {
       this.displayGrades();
     } else {
       let title = document.querySelector("h1");

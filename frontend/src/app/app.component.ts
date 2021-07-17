@@ -18,7 +18,6 @@ export class AppComponent {
   ngOnInit(): void {
     this.LoginService.observable().subscribe((user) => {
       this.user = user;
-      console.log(this.user);
       this.ref.detectChanges();
     });
   }
