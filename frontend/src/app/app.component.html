@@ -1,5 +1,31 @@
 <div class="main">
+  <div class="btncontainer">
+    <!-- <div
+      class="g-signin2"
+      data-onsuccess="onSignIn"
+      data-longtitle="true"
+      data-theme="dark"
+      data-width="200"
+      data-height="40"
+      data-cookiepolicy="single_host_origin"
+    ></div> -->
+    <button
+      type="button"
+      class="login-btn"
+      (click)="signIn()"
+      *ngIf="user == null"
+    >
+      Sign in with Google
+    </button>
+    <button
+      type="button"
+      class="login-btn-sign-out"
+      (click)="signOut()"
+      *ngIf="user != null"
+    >
+      Sign out of Google
+    </button>
+  </div>
   <app-sidebar></app-sidebar>
   <router-outlet class="main-data"></router-outlet>
 </div>
-

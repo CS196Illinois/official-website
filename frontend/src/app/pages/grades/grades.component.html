@@ -1,69 +1,78 @@
 <header>
-    <nav class="navbar navbar-expand navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>    
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" [routerLink] = "['/']">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink] = "['/resources']">Resources</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" [routerLink] = "['/staff']">Staff</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <div class="title">
-        <h1>Grades</h1>
+  <nav class="navbar navbar-expand navbar-light bg-light">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/resources']">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/staff']">Staff</a>
+        </li>
+      </ul>
     </div>
+  </nav>
+  <div class="title">
+    <h1>Grades</h1>
+  </div>
 </header>
 
 <div class="Attendance">
-    <table class="content-table">
-        <tr>
-            <th>Attendance</th>
-            <th>Grades</th>
-        </tr>
-        <tr *ngFor="let grade of attendance_grades">
-            <td>{{grade.assignment}}</td>
-            <td>{{ grade.grades }}</td>
-        </tr>
-    </table>
-    <br>
-    <table class="content-table">
-        <tr>
-            <th>Homework</th>
-            <th>Grades</th>
-        </tr>
-        <tr *ngFor="let grade of homework_grades">
-            <td>{{grade.assignment}}</td>
-            <td>{{ grade.grades }}</td>
-        </tr>
-    </table>
-    <br>
-    <table class="content-table">
-        <tr>
-            <th>Project</th>
-            <th>Grades</th>
-        </tr>
-        <tr *ngFor="let grade of project_grades">
-            <td>{{grade.assignment}}</td>
-            <td>{{ grade.grades }}</td>
-        </tr>
-    </table>
-    <br>
-    <table class="content-table">
-        <tr>
-            <th>Extra Credit</th>
-            <th>Grades</th>
-        </tr>
-        <tr *ngFor="let grade of extra_credit_grades">
-            <td>{{grade.assignment}}</td>
-            <td>{{ grade.grades }}</td>
-        </tr>
-    </table>
-
+  <table class="content-table">
+    <tr>
+      <th>Attendance</th>
+      <th>Grades</th>
+    </tr>
+    <tr *ngFor="let grade of attendance_grades">
+      <td>{{ grade.assignmentName }}</td>
+      <td>{{ grade.grade }}</td>
+    </tr>
+  </table>
+  <br />
+  <table class="content-table">
+    <tr>
+      <th>Homework</th>
+      <th>Grades</th>
+    </tr>
+    <tr *ngFor="let grade of homework_grades">
+      <td>{{ grade.assignmentName }}</td>
+      <td>{{ grade.grade }}</td>
+    </tr>
+  </table>
+  <br />
+  <table class="content-table">
+    <tr>
+      <th>Project</th>
+      <th>Grades</th>
+    </tr>
+    <tr *ngFor="let grade of project_grades">
+      <td>{{ grade.assignmentName }}</td>
+      <td>{{ grade.grade }}</td>
+    </tr>
+  </table>
+  <br />
+  <table class="content-table">
+    <tr>
+      <th>Extra Credit</th>
+      <th>Grades</th>
+    </tr>
+    <tr *ngFor="let grade of extra_credit_grades">
+      <td>{{ grade.assignmentName }}</td>
+      <td>{{ grade.grade }}</td>
+    </tr>
+  </table>
+  <h5></h5>
+</div>
