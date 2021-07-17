@@ -1,48 +1,47 @@
 $base-color: #ff785f;
 
 .sidebar-main {
-    height: 100%;
-    background-color: $base-color;
+  height: 100%;
+  background-color: $base-color;
 }
 
 img {
-    width: 60%;  
-    margin-top: 40px;
-    margin-left: 20%
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 20%;
 }
 
 button {
-    background-color: transparent; /* Green */
-    border: none;
-    color: rgba(255,255,255, 0.5);
-    padding: 15px 16px 15px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 75%;
-    margin-left: 12.5%;
-    cursor: pointer;
-    box-sizing: border-box;
-    border-bottom: solid 3px;
-    border-color: rgba(255,255,0, 0.7);
+  background-color: transparent; /* Green */
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 15px 16px 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 75%;
+  margin-left: 12.5%;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-bottom: solid 3px;
+  border-color: rgba(255, 255, 0, 0.7);
 }
 
-
 button:hover {
-    color: rgba(255, 255, 255, 0.8)
+  color: rgba(255, 255, 255, 0.8);
 }
 
 hr {
-    border: none;
-    width: 75%;
-    color: rgb(255, 253, 253, 0.1);
-    // color: rgba(255,255,0, 0.7);
-    margin-top: 30px;
-    height: 3px;
+  border: none;
+  width: 75%;
+  color: rgb(255, 253, 253, 0.1);
+  // color: rgba(255,255,0, 0.7);
+  margin-top: 30px;
+  height: 3px;
 }
 
 .button-groups {
-    box-sizing: border-box;
-    margin-top: 32px;
+  box-sizing: border-box;
+  margin-top: 32px;
 }

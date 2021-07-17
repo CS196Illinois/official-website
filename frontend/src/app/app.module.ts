@@ -1,20 +1,24 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
-import { AppComponent } from './app.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { HomeComponent } from './pages/home/home.component';
-import { ResourcesComponent } from './pages/resources/resources.component';
-import { StaffComponent } from './pages/staff/staff.component';
-import { LecturesTableComponent } from './components/lectures-table/lectures-table.component';
-import { PersonComponent } from './components/person/person.component';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { AppComponent } from "./app.component";
+import { SidebarComponent } from "./components/sidebar/sidebar.component";
+import { HomeComponent } from "./pages/home/home.component";
+import { ResourcesComponent } from "./pages/resources/resources.component";
+import { StaffComponent } from "./pages/staff/staff.component";
+import { LecturesTableComponent } from "./components/lectures-table/lectures-table.component";
+import { PersonComponent } from "./components/person/person.component";
+import { GradesComponent } from "./pages/grades/grades.component";
+import { HttpClientModule } from "@angular/common/http";
+import { LoginService } from "./services/login.service";
+import { GradesService } from "./services/grades.service";
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'resources', component: ResourcesComponent },
-  { path: 'staff', component: StaffComponent},
+  { path: "", component: HomeComponent },
+  { path: "resources", component: ResourcesComponent },
+  { path: "staff", component: StaffComponent },
+  { path: "grades", component: GradesComponent },
 ];
 
 @NgModule({
@@ -25,16 +29,16 @@ const routes: Routes = [
     ResourcesComponent,
     StaffComponent,
     LecturesTableComponent,
-    PersonComponent
+    PersonComponent,
+    GradesComponent,
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(
-      routes
-    ),
-    FontAwesomeModule
+    RouterModule.forRoot(routes),
+    FontAwesomeModule,
+    HttpClientModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [LoginService, GradesService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

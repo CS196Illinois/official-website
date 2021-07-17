@@ -1,5 +1,22 @@
 <div class="main">
+  <div class="btncontainer">
+    <button
+      type="button"
+      class="login-btn"
+      (click)="signIn()"
+      *ngIf="user == null"
+    >
+      Sign in with Google
+    </button>
+    <button
+      type="button"
+      class="login-btn-sign-out"
+      (click)="signOut()"
+      *ngIf="user != null"
+    >
+      You're Signed In
+    </button>
+  </div>
   <app-sidebar></app-sidebar>
   <router-outlet class="main-data"></router-outlet>
 </div>
-
