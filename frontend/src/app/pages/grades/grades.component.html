@@ -26,11 +26,14 @@
     </div>
   </nav>
   <div class="title">
-    <h1>Grades</h1>
+    <h1 *ngIf="user != null">Grades</h1>
   </div>
 </header>
 
-<div class="Attendance">
+<h1 style="margin-top: 10%" *ngIf="user == null">
+  Please sign in with your Google Illinois account to access your grades.
+</h1>
+<div *ngIf="user" class="Attendance">
   <table class="content-table">
     <tr>
       <th>Attendance</th>
@@ -41,6 +44,7 @@
       <td>{{ grade.grade }}</td>
     </tr>
   </table>
+
   <br />
   <table class="content-table">
     <tr>
@@ -52,6 +56,7 @@
       <td>{{ grade.grade }}</td>
     </tr>
   </table>
+
   <br />
   <table class="content-table">
     <tr>
@@ -63,6 +68,7 @@
       <td>{{ grade.grade }}</td>
     </tr>
   </table>
+
   <br />
   <table class="content-table">
     <tr>
@@ -74,5 +80,9 @@
       <td>{{ grade.grade }}</td>
     </tr>
   </table>
-  <h5></h5>
+
+  <h5 *ngIf="grades" class="msg">
+    If you think there is a mistake with your grade, please contact the course
+    staff.
+  </h5>
 </div>

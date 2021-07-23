@@ -33,6 +33,15 @@ app-sidebar {
   app-sidebar {
     display: none;
   }
+  .btncontainer {
+    width: 170px;
+    height: 5px;
+    margin-left: 50%;
+  }
+  .login-btn,
+  .login-btn-sign-out {
+    font-size: 10px !important;
+  }
 }
 
 @media (min-width: 559px) {
