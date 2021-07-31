@@ -13,6 +13,7 @@ export class GradesComponent implements OnInit {
   attendance_grades;
   project_grades;
   extra_credit_grades;
+  name;
   user: gapi.auth2.GoogleUser;
   flag: boolean = false;
   constructor(
@@ -22,15 +23,14 @@ export class GradesComponent implements OnInit {
     private NgZone: NgZone
   ) {}
   isSignedIn: boolean = false;
+  isIllini: boolean = true;
   ngOnInit() {
     this.LoginService.observable().subscribe(user => {
       this.user = user;
       this.ref.detectChanges();
       this.GradesService.getGrades().subscribe(data => {
         this.grades = data;
-        console.log(this.grades + "grades is already here");
         this.NgZone.run(() => {
-          console.log("anim complete");
           this.displayGrades(this.grades);
         });
       });
@@ -38,10 +38,16 @@ export class GradesComponent implements OnInit {
   }
 
   displayGrades(data) {
-    this.grades = data;
-    console.log(data);
+    if (
+      this.user
+        .getBasicProfile()
+        .getEmail()
+        .match("(?<=@)[^.]+(?=.)")[0] !== "illinois"
+    ) {
+      this.isIllini = false;
+    }
+    this.name = this.user.getBasicProfile().getGivenName();
     var grades = JSON.parse(JSON.stringify(data));
-    console.log(grades);
     this.homework_grades = grades.grades.filter(
       item => item.assignmentType == 3
     );
@@ -54,6 +60,5 @@ export class GradesComponent implements OnInit {
     this.extra_credit_grades = grades.grades.filter(
       item => item.assignmentType == 4
     );
-    console.log(this.homework_grades);
   }
 }
