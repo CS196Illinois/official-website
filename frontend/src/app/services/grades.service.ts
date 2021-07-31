@@ -23,7 +23,7 @@ export class GradesService {
       })
     };
     this.http
-      .get<JSON>("http://127.0.0.1:5000/api", httpOptions)
+      .get<JSON>("https:cs196.cs.illinois.edu/wsgi", httpOptions)
       .subscribe(res => {
         this.grades.next(res);
       });
