@@ -1,97 +1,146 @@
 <div class="resource-page">
-    <div class="big-container" style="background-color: rgba(0, 0, 0, 0.7);">
-        <nav class="navbar navbar-expand navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" [routerLink]="['/']">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" [routerLink]="['/staff']" style="color:white">Staff</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/grades']" style="color:white">Grades</a>
-                  </li>
-              </ul>
-            </div>
-          </nav>
-        <p class="resource">Resources</p>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="one">
-                        <!-- <a href="https://github.com/CS196Illinois" style="color:white;text-decoration: none"> -->
-                            <fa-stack style="color: white;">
-                                <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
-                                <fa-icon [icon]="faDesktop" stackItemSize="1x" style="color: red"></fa-icon>
-                            </fa-stack>
-                        <h3>Discord</h3>
-                    </div>
-                    <section>
-                        <!-- <a href="https://github.com/CS196Illinois" style="color:white;text-decoration: none"> -->
-                            <p style="color:white;text-decoration: none">Real time communication with your group and staff.</p>
-                        <!-- </a> -->
-                    </section>
-                </div>
-                <div class="col-md-6">
-                    <a href="https://campuswire.com/p/GDFB6EBE5" style="color:white;text-decoration: none">
-                        <div class="one">
-                            <fa-stack style="color: white;">
-                                <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
-                                <fa-icon [icon]="faLock" stackItemSize="1x" style="color: red"></fa-icon>
-                            </fa-stack>
-                            <h3>Campuswire</h3>
-                        </div>
-                    </a>
-                    <section>
-                        <a href="https://campuswire.com/p/GDFB6EBE5" style="color:white;text-decoration: none">
-                            <p>A superior Q & A Platform. Way better than Piazza.</p>
-                        </a>
-                    </section>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <a href="https://prairielearn.engr.illinois.edu/" style="color:white;text-decoration: none">
-                        <div class="one">
-                            <fa-stack style="color: white;">
-                                <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
-                                <fa-icon [icon]="faCode" stackItemSize="1x" style="color: red"></fa-icon>
-                            </fa-stack>
-                            <h3>Prairielearn</h3>
-                        </div>
-                    </a>
-                    <section>
-                        <a href="https://prairielearn.engr.illinois.edu/" style="color:white;text-decoration: none">
-                            <p>We use PrarieLearn to do the first few homeworks. Don't procrastinate on them!</p>
-                        </a>
-                    </section>
-                </div>
-                <div class="col-md-6">
-                    <a href="https://twitch.tv/cs196illinois" style="color:white;text-decoration: none">
-                        <div class="one">
-                            <fa-stack style="color: white;">
-                                <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
-                                <fa-icon [icon]="faCog" stackItemSize="1x" style="color: red"></fa-icon>
-                            </fa-stack>
-                            <h3>Twitch</h3>
-                        </div>
-                    </a>
-                    <section>
-                        <a href="https://twitch.tv/cs196illinois" style="color:white;text-decoration: none">
-                            <p>Yes, we livestream our lectures on twitch.tv/cs196illinois</p>
-                        </a>
-                    </section>
-                </div>
-            </div>
+  <div class="big-container" style="background-color: rgba(0, 0, 0, 0.7);">
+    <nav class="navbar navbar-expand navbar-dark bg-dark" style="height:8vh;">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['/']">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/staff']" style="color:white"
+              >Staff</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/grades']" style="color:white"
+              >Grades</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <p class="resource">Resources</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="one">
+            <!-- <a href="https://github.com/CS196Illinois" style="color:white;text-decoration: none"> -->
+            <fa-stack style="color: white;">
+              <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
+              <fa-icon
+                [icon]="faDesktop"
+                stackItemSize="1x"
+                style="color: red"
+              ></fa-icon>
+            </fa-stack>
+            <h3>Discord</h3>
+          </div>
+          <section>
+            <!-- <a href="https://github.com/CS196Illinois" style="color:white;text-decoration: none"> -->
+            <p style="color:white;text-decoration: none">
+              Real time communication with your group and staff.
+            </p>
+            <!-- </a> -->
+          </section>
         </div>
+        <div class="col-md-6">
+          <a
+            href="https://campuswire.com/p/GDFB6EBE5"
+            style="color:white;text-decoration: none"
+          >
+            <div class="one">
+              <fa-stack style="color: white;">
+                <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
+                <fa-icon
+                  [icon]="faLock"
+                  stackItemSize="1x"
+                  style="color: red"
+                ></fa-icon>
+              </fa-stack>
+              <h3>Campuswire</h3>
+            </div>
+          </a>
+          <section>
+            <a
+              href="https://campuswire.com/p/GDFB6EBE5"
+              style="color:white;text-decoration: none"
+            >
+              <p>A superior Q & A Platform. Way better than Piazza.</p>
+            </a>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <a
+            href="https://prairielearn.engr.illinois.edu/"
+            style="color:white;text-decoration: none"
+          >
+            <div class="one">
+              <fa-stack style="color: white;">
+                <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
+                <fa-icon
+                  [icon]="faCode"
+                  stackItemSize="1x"
+                  style="color: red"
+                ></fa-icon>
+              </fa-stack>
+              <h3>Prairielearn</h3>
+            </div>
+          </a>
+          <section>
+            <a
+              href="https://prairielearn.engr.illinois.edu/"
+              style="color:white;text-decoration: none"
+            >
+              <p>
+                We use PrarieLearn to do the first few homeworks. Don't
+                procrastinate on them!
+              </p>
+            </a>
+          </section>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="https://twitch.tv/cs196illinois"
+            style="color:white;text-decoration: none"
+          >
+            <div class="one">
+              <fa-stack style="color: white;">
+                <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
+                <fa-icon
+                  [icon]="faCog"
+                  stackItemSize="1x"
+                  style="color: red"
+                ></fa-icon>
+              </fa-stack>
+              <h3>Twitch</h3>
+            </div>
+          </a>
+          <section>
+            <a
+              href="https://twitch.tv/cs196illinois"
+              style="color:white;text-decoration: none"
+            >
+              <p>Yes, we livestream our lectures on twitch.tv/cs196illinois</p>
+            </a>
+          </section>
+        </div>
+      </div>
     </div>
-    <div class="resources-table">
-        <app-lectures-table></app-lectures-table>
-    </div>
+  </div>
+  <div class="resources-table">
+    <app-lectures-table></app-lectures-table>
+  </div>
 </div>
-
-

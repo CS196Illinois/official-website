@@ -1,27 +1,39 @@
 import { Injectable } from "@angular/core";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
-import { Observable } from "rxjs";
+import { Observable, ReplaySubject } from "rxjs";
 import { LoginService } from "./login.service";
 
 @Injectable({
-  providedIn: "root",
+  providedIn: "root"
 })
 export class GradesService {
-  grades;
-  user;
+  user: gapi.auth2.GoogleUser;
+  grades = new ReplaySubject<JSON>(1);
   constructor(private http: HttpClient, private LoginService: LoginService) {
-    this.LoginService.observable().subscribe((user) => {
+    this.LoginService.observable().subscribe(user => {
       this.user = user;
+      this.fetch();
     });
   }
 
-  getGrades(): Observable<JSON> {
+  public fetch() {
     const httpOptions = {
       headers: new HttpHeaders({
-        Authorization: this.user.getAuthResponse().id_token,
-      }),
+        Authorization: this.user.getAuthResponse().id_token
+      })
     };
-    this.grades = this.http.get<JSON>("http://127.0.0.1:5000/api", httpOptions);
+    this.http
+      .get<JSON>("https:cs196.cs.illinois.edu/wsgi", httpOptions)
+      .subscribe(res => {
+        this.grades.next(res);
+      });
+  }
+
+  public getGrades(): Observable<JSON> {
     return this.grades;
+  }
+
+  public observable(): Observable<JSON> {
+    return this.grades.asObservable();
   }
 }

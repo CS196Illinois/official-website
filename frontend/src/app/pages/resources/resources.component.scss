@@ -1,108 +1,107 @@
 .resources-table {
-    height: 100vh;
-    width: 75vw;
-    margin-top: 5%;
-    padding: 0;
-    box-sizing: border-box;
-    padding: 0% 8% 20% 8%;
+  height: 100vh;
+  width: 75vw;
+  margin-top: 5%;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 0% 8% 20% 8%;
 }
 
 app-lectures-table {
-    width: 100%;
+  width: 100%;
 }
-
 
 p {
-    line-height: 1.8;
-    font-size: large;
-    padding-bottom: 1rem;
-    margin: 0
+  line-height: 1.8;
+  font-size: large;
+  padding-bottom: 1rem;
+  margin: 0;
 }
 .container {
-    width: 90%;
-    padding-bottom: 10%;
+  width: 90%;
+  padding-bottom: 10%;
 }
 
 .resource {
-    font-size: 3.5rem;
-    color: white;
-    margin-left: 5%;
-    padding-top: 1%
+  font-size: 3.5rem;
+  color: white;
+  margin-left: 5%;
+  padding-top: 1%;
 }
 
 .row {
-    background-color: rgba(0, 0, 0, 0.15);
-    min-height: 20rem;
-    // height: 35vh;
+  background-color: rgba(0, 0, 0, 0.15);
+  min-height: 20rem;
+  // height: 35vh;
 }
 
 h3 {
-    color: white;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+  color: white;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
-section{
-    padding: 0 0.5rem 0 1rem;
+section {
+  padding: 0 0.5rem 0 1rem;
 }
 
 .col-md-6 {
-    border-radius: 3px;
-    border: 0.5px rgba(207, 191, 191, 0.15) solid;
+  border-radius: 3px;
+  border: 0.5px rgba(207, 191, 191, 0.15) solid;
 }
 
 .one {
-    display: flex; 
-    padding: 1.5rem 1rem 0 0.5rem
+  display: flex;
+  padding: 1.5rem 1rem 0 0.5rem;
 }
 
 .link {
-    color: rgba(0, 0, 0, 0);
-    margin-left: 5%;
+  color: rgba(0, 0, 0, 0);
+  margin-left: 5%;
 }
 
-@media  (max-width: 559px){
-    .resources-table {
-        height: 100vh;
-        width: 100vw;
-        margin-top: 5%;
-        padding: 0;
-        box-sizing: border-box;
-        padding: 0% 0% 20% 0%;
-    }
-    p {
-        line-height: 1.6;
-        font-size: small;
-        padding-bottom: 1rem;
-        margin: 0
-    }
-    h3 {
-        font-size: medium;
-    } 
-    .resource {
-        font-size: 1.5rem;
-        color: white;
-        margin-left: 5%;
-        padding-top: 1%
-    }
+@media (max-width: 559px) {
+  .resources-table {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 5%;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0% 0% 20% 0%;
+  }
+  p {
+    line-height: 1.6;
+    font-size: small;
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+  h3 {
+    font-size: medium;
+  }
+  .resource {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 5%;
+    padding-top: 1%;
+  }
 
-    .one {
-        display: flex; 
-        padding: 1rem 0.25rem 0 0.25rem
-    }
+  .one {
+    display: flex;
+    padding: 1rem 0.25rem 0 0.25rem;
+  }
 
-    .row {
-        min-height: 15rem;
-        // height: 35vh;
-    }
-    .link {
-        color: white;
-        margin-left: 5%;
-    }
+  .row {
+    min-height: 15rem;
+    // height: 35vh;
+  }
+  .link {
+    color: white;
+    margin-left: 5%;
+  }
 }
 
 @media only screen and (min-width: 559px) {
-    nav {
-        display: none;
-    }
+  nav {
+    display: none;
   }
+}

@@ -26,11 +26,19 @@
     </div>
   </nav>
   <div class="title">
-    <h1>Grades</h1>
+    <h1 *ngIf="user != null">Grades</h1>
   </div>
 </header>
 
-<div class="Attendance">
+<h1 style="margin-top: 10%; margin-left: 3%;" *ngIf="!user">
+  Please sign in with your Google Illinois account to access your grades.
+</h1>
+<h5 style="margin-left: 3%;" *ngIf="!isIllini && user" class="msg">
+  It seems that you are not using your Illinois account. Please use your
+  Illinois Google Account.
+</h5>
+<div *ngIf="user && isIllini" class="Attendance">
+  <h5>Hello {{ name }}!</h5>
   <table class="content-table">
     <tr>
       <th>Attendance</th>
@@ -41,6 +49,7 @@
       <td>{{ grade.grade }}</td>
     </tr>
   </table>
+
   <br />
   <table class="content-table">
     <tr>
@@ -52,6 +61,7 @@
       <td>{{ grade.grade }}</td>
     </tr>
   </table>
+
   <br />
   <table class="content-table">
     <tr>
@@ -63,6 +73,7 @@
       <td>{{ grade.grade }}</td>
     </tr>
   </table>
+
   <br />
   <table class="content-table">
     <tr>
@@ -74,5 +85,9 @@
       <td>{{ grade.grade }}</td>
     </tr>
   </table>
-  <h5></h5>
+
+  <h5 *ngIf="grades && isIllini" class="msg">
+    If you think there is a mistake with your grade, please contact Jonah
+    Tjandra (jonahlt2).
+  </h5>
 </div>

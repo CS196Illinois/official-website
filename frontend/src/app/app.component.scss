@@ -29,9 +29,34 @@ app-sidebar {
   z-index: 20;
 }
 
+.short-text {
+  display: none;
+}
+
 @media (max-width: 559px) {
   app-sidebar {
     display: none;
+  }
+  .btncontainer {
+    width: 100px;
+    height: 60px;
+    margin-left: 65%;
+    margin-top: 1%;
+  }
+  .login-btn,
+  .login-btn-sign-out {
+    font-size: 11px !important;
+    background-position: 42px 6px !important;
+    height: 30px;
+  }
+  .login-btn-sign-out {
+    background-color: #bdbdbd !important;
+  }
+  .full-text {
+    display: none;
+  }
+  .short-text {
+    display: block;
   }
 }
 
@@ -68,9 +93,5 @@ app-sidebar {
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25);
     background-color: #979797;
     color: rgb(255, 255, 255);
-  }
-
-  .login-btn-sign-out {
-    background-color: #818181 !important;
   }
 }
