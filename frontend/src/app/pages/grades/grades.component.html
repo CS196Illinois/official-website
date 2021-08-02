@@ -38,7 +38,7 @@
   Illinois Google Account.
 </h5>
 <div *ngIf="user && isIllini" class="Attendance">
-  <h5>Hello {{ name }}!</h5>
+  <h5 *ngIf="!grades">Loading the grades...</h5>
   <table class="content-table">
     <tr>
       <th>Attendance</th>

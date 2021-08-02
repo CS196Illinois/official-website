@@ -30,9 +30,11 @@ export class GradesComponent implements OnInit {
       this.ref.detectChanges();
       this.GradesService.getGrades().subscribe(data => {
         this.grades = data;
-        this.NgZone.run(() => {
-          this.displayGrades(this.grades);
-        });
+        if (this.grades) {
+          this.NgZone.run(() => {
+            this.displayGrades(this.grades);
+          });
+        }
       });
     });
   }
@@ -42,7 +44,8 @@ export class GradesComponent implements OnInit {
       this.user
         .getBasicProfile()
         .getEmail()
-        .match("(?<=@)[^.]+(?=.)")[0] !== "illinois"
+        .match("(?:@)[^.]+(?=.)")[0]
+        .substr(1) !== "illinois"
     ) {
       this.isIllini = false;
     }
