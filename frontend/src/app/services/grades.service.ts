@@ -12,18 +12,23 @@ export class GradesService {
   constructor(private http: HttpClient, private LoginService: LoginService) {
     this.LoginService.observable().subscribe(user => {
       this.user = user;
-      this.fetch();
+      // sign in
+      if (this.user) this.fetch();
+      // sign out
+      if (!this.user) this.grades.next(null);
     });
   }
 
   public fetch() {
     const httpOptions = {
       headers: new HttpHeaders({
+        Accept: "application/json",
+        "Content-Type": "application/json",
         Authorization: this.user.getAuthResponse().id_token
       })
     };
     this.http
-      .get<JSON>("https:cs196.cs.illinois.edu/wsgi", httpOptions)
+      .get<JSON>("https://cs196.cs.illinois.edu/wsgi/api", httpOptions)
       .subscribe(res => {
         this.grades.next(res);
       });
