@@ -38,9 +38,12 @@
   Illinois Google Account.
 </h5>
 <div *ngIf="user && isIllini" class="Attendance">
-  <h5 *ngIf="!grades">Loading the grades...</h5>
+  <h4 *ngIf="!grades">Loading the grades...</h4>
   <table class="content-table">
-    <tr>
+    <tr *ngIf="grades && attendance_grades.length === 0">
+      <th>No attendance grades yet</th>
+    </tr>
+    <tr *ngIf="!grades || attendance_grades.length !== 0">
       <th>Attendance</th>
       <th>Grades</th>
     </tr>
@@ -52,7 +55,10 @@
 
   <br />
   <table class="content-table">
-    <tr>
+    <tr *ngIf="grades && homework_grades.length === 0">
+      <th>No homework grades yet</th>
+    </tr>
+    <tr *ngIf="!grades || homework_grades.length !== 0">
       <th>Homework</th>
       <th>Grades</th>
     </tr>
@@ -64,7 +70,10 @@
 
   <br />
   <table class="content-table">
-    <tr>
+    <tr *ngIf="grades && project_grades.length === 0">
+      <th>No project grades yet</th>
+    </tr>
+    <tr *ngIf="!grades || project_grades.length !== 0">
       <th>Project</th>
       <th>Grades</th>
     </tr>
@@ -76,7 +85,10 @@
 
   <br />
   <table class="content-table">
-    <tr>
+    <tr *ngIf="grades && extra_credit_grades.length === 0">
+      <th>No extra credit grades yet</th>
+    </tr>
+    <tr *ngIf="!grades || extra_credit_grades.length !== 0">
       <th>Extra Credit</th>
       <th>Grades</th>
     </tr>

@@ -8,12 +8,11 @@ import { LoginService } from "src/app/services/login.service";
   styleUrls: ["./grades.component.scss"]
 })
 export class GradesComponent implements OnInit {
-  grades;
-  homework_grades;
-  attendance_grades;
-  project_grades;
-  extra_credit_grades;
-  name;
+  grades: JSON;
+  homework_grades: Array<object>;
+  attendance_grades: Array<object>;
+  project_grades: Array<object>;
+  extra_credit_grades: Array<object>;
   user: gapi.auth2.GoogleUser;
   flag: boolean = false;
   constructor(
@@ -30,7 +29,7 @@ export class GradesComponent implements OnInit {
       this.ref.detectChanges();
       this.GradesService.getGrades().subscribe(data => {
         this.grades = data;
-        if (this.grades) {
+        if (this.grades && this.user) {
           this.NgZone.run(() => {
             this.displayGrades(this.grades);
           });
@@ -49,7 +48,6 @@ export class GradesComponent implements OnInit {
     ) {
       this.isIllini = false;
     }
-    this.name = this.user.getBasicProfile().getGivenName();
     var grades = JSON.parse(JSON.stringify(data));
     this.homework_grades = grades.grades.filter(
       item => item.assignmentType == 3
